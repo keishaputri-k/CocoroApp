@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Sec_onboarding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_40dp">
+
+    <ImageView
+        android:layout_width="@dimen/_280dp"
+        android:layout_height="@dimen/_280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_40dp"
+        android:contentDescription="@string/image_view"
+        android:src="@drawable/sec_onboarding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_40dp"
+        android:text="@string/txt_sec_onboarding"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        android:text="@string/txt2_sec_onboarding"
+        android:textSize="@dimen/_14sp" />
+</LinearLayout>

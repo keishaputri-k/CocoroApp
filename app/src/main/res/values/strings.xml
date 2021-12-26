@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Cocoro</string>
+    <string name="txt_be_aware">Be Aware</string>
+    <string name="txt_from_covid_19">From Covid-19</string>
+    <string name="txt_quarantine_notice">Keep yourself home quarantine</string>
+    <string name="image_view">Image View</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="txt_create">Create</string>
+    <string name="txt_account">Account</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_register">Register</string>
+    <string name="let_s_start">Let\'s start make cocoro Account</string>
+    <string name="am_i_infected_with_coronavirus">Am I Infected with coronavirus ?</string>
+    <string name="txt_firstboard">Know the difference between the common cold or flu and Covid 19. If you feel you are infecting by Covid 19, immediately do consultation and self-quarantine</string>
+    <string name="txt_sec_onboarding">Lets fight Coronavirus together</string>
+    <string name="txt2_sec_onboarding">turn your device into a coronavirus warning system. Help us break the chain by using this app</string>
+    <string name="txt_third_on_boarding">Get help and consultation by the experts, connecting those who need help with those who can help</string>
+    <string name="covid_help">Covid - Help</string>
+    <string name="txt_skip">Skip</string>
+    <string name="txt_next">Next</string>
+    <string name="txt_start">Start</string>
+</resources>

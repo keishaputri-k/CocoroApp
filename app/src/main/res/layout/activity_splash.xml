@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".activity.SplashScreen">
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_be_aware"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_40sp" />
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_from_covid_19"
+        android:textSize="@dimen/_40sp"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/tv_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_quarantine_notice"
+        android:textSize="@dimen/_20sp"
+        android:layout_marginBottom="@dimen/_16dp"/>
+    <ImageView
+        android:id="@+id/iv_stay_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24dp"
+        android:src="@drawable/img_splash"/>
+</LinearLayout>

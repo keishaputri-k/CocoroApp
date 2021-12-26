@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/third_onboarding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_40dp">
+
+    <ImageView
+        android:layout_width="@dimen/_280dp"
+        android:layout_height="@dimen/_280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_40dp"
+        android:contentDescription="@string/image_view"
+        android:src="@drawable/third_on_boarding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/covid_help"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        android:text="@string/txt_third_on_boarding"
+        android:textSize="@dimen/_14sp" />
+</LinearLayout>

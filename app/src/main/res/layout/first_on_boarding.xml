@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_40dp"
+    android:background="@android:color/white"
+    android:id="@+id/l_first_onboarding">
+    <ImageView
+        android:layout_width="@dimen/_280dp"
+        android:layout_height="@dimen/_280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_40dp"
+        android:src="@drawable/first_on_boarding"
+        android:contentDescription="@string/image_view"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/am_i_infected_with_coronavirus"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_40dp"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16dp"
+        android:text="@string/txt_firstboard"
+        android:textSize="@dimen/_14sp"/>
+</LinearLayout>
